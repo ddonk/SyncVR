@@ -12,10 +12,12 @@ public class LevelTrigger : MonoBehaviour
         switch (_obstacleType)
         {
             case ObstacleType.TSPLIT:
-                GenerateNewLevel(other.gameObject);
+                GenerateNewLevel();
                 break;
             case ObstacleType.OBSTACLE:
                 Dead(other.gameObject);
+                break;
+            case ObstacleType.POINT:
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
@@ -27,9 +29,8 @@ public class LevelTrigger : MonoBehaviour
         Destroy(_gameObject);
     }
     
-    private void GenerateNewLevel(GameObject _gameObject)
+    private void GenerateNewLevel()
     {
-        _gameObject.transform.Rotate(0,90,0);
         LevelManager.Singleton.GenerateLane();
     }
 }
@@ -38,4 +39,5 @@ public enum ObstacleType
 {
     OBSTACLE,
     TSPLIT,
+    POINT,
 }

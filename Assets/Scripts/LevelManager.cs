@@ -1,78 +1,37 @@
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
+using Quaternion = UnityEngine.Quaternion;
+using Vector3 = UnityEngine.Vector3;
 
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager Singleton { get; private set; }
     [SerializeField] private List<GameObject> tilesPrefabs;
-    private List<GameObject> currentTiles;
+    [SerializeField] private List<GameObject> currentTiles;
+
+    [SerializeField] private float xTileSize;
 
     private Vector3 _initTilePos;
-    private Vector3 rotation;
-
+    private Vector3 _initTileRot;
     public void GenerateLane()
     {
-        foreach (var tile in currentTiles)
+        for (int i = 0; i < currentTiles.Count-3; i++)
         {
-           Destroy(tile); 
+            Destroy(currentTiles[i]);
         }
         
         currentTiles.Clear();
-        
+
         for (int i = 0; i < 6; i+=2)
         {
-            currentTiles.Add(Instantiate(tilesPrefabs[0], _initTilePos, Quaternion.Euler(rotation)));
-            ChangeInitPos();
-            currentTiles.Add(Instantiate(tilesPrefabs[RandomRangeInt(1, 7)], _initTilePos, Quaternion.Euler(rotation)));
-            ChangeInitPos();
+            currentTiles.Add(Instantiate(tilesPrefabs[0], _initTilePos, Quaternion.Euler(Singleton._initTileRot)));
+            _initTilePos.z += xTileSize;
+            currentTiles.Add(Instantiate(tilesPrefabs[RandomRangeInt(1, tilesPrefabs.Count-2)], _initTilePos, Quaternion.Euler(Singleton._initTileRot)));
+            _initTilePos.z += xTileSize;
         }
-        
-        currentTiles.Add(Instantiate(tilesPrefabs[2], _initTilePos, Quaternion.Euler(rotation)));
-        ChangeInitRotation();
-    }
-
-    private void ChangeInitPos()
-    {
-        switch (rotation.y)
-        {
-            case 0:
-                Singleton._initTilePos.z += 10;
-                break;
-            case 90:
-                Singleton._initTilePos.x += 10;
-                break;
-            case 180:
-                Singleton._initTilePos.z -= 10;
-                break;
-            case 270:
-                Singleton._initTilePos.x -= 10;
-                break;
-        }
-    }
-
-    private void ChangeInitRotation()
-    {
-        if (Singleton.rotation.y.Equals(0))
-        {
-            Singleton.rotation.y += 90;
-            Singleton._initTilePos.x += 10;
-            Singleton._initTilePos.z += 13.75f;
-        } else if (Singleton.rotation.y.Equals(90))
-        {
-            Singleton.rotation.y += 90;
-            Singleton._initTilePos.x += 13.75f;
-            Singleton._initTilePos.z -= 10f;
-        } else if (Singleton.rotation.y.Equals(180))
-        {
-            Singleton.rotation.y += 90;
-            Singleton._initTilePos.x -= 10;
-            Singleton._initTilePos.z -= 13.75f;
-        } else if (Singleton.rotation.y.Equals(270))
-        {
-            Singleton.rotation.y = 0;
-            Singleton._initTilePos.x = 0;
-            Singleton._initTilePos.z = 0;
-        }
+        currentTiles.Add(Instantiate(tilesPrefabs[0], _initTilePos, Quaternion.Euler(Singleton._initTileRot)));
+        currentTiles.Add(Instantiate(tilesPrefabs[tilesPrefabs.Count-1], _initTilePos, Quaternion.Euler(Singleton._initTileRot)));
     }
 
     private int RandomRangeInt(int min, int max)
@@ -91,8 +50,10 @@ public class LevelManager : MonoBehaviour
             Debug.Log("Init singleton");
             Singleton = this;
             Singleton.tilesPrefabs = tilesPrefabs;
-            Singleton._initTilePos = _initTilePos;
+            Singleton._initTilePos = new Vector3();
+            Singleton._initTileRot = new Vector3(0, 90, 0);
             Singleton.currentTiles = new List<GameObject>();
+            Singleton.xTileSize = xTileSize;
         }
     }
 }
