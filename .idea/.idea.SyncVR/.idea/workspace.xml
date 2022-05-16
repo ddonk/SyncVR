@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4e06d83-7dd3-4d5a-8740-f9e3049cc9f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/T-split tile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/T-split tile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CustomGameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelTrigger.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SyncVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SyncVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TestObstacle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ObstacleTile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TestObstacle.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ObstacleTile.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterController.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleTrigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleTrigger.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CustomGameManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ObstacleTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ObstacleTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/T-split tile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/T-split tile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652638324217</updated>
       <workItem from="1652638328919" duration="12136000" />
+      <workItem from="1652686862799" duration="1073000" />
     </task>
     <servers />
   </component>
