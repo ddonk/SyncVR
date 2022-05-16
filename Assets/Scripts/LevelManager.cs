@@ -47,7 +47,7 @@ public class LevelManager : MonoBehaviour
         } 
         else 
         {
-            Debug.Log("Init singleton");
+            Debug.Log("Init Level Manager Singleton");
             Singleton = this;
             Singleton.tilesPrefabs = tilesPrefabs;
             Singleton._initTilePos = new Vector3();

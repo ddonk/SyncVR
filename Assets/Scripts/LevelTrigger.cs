@@ -18,6 +18,7 @@ public class LevelTrigger : MonoBehaviour
                 Dead(other.gameObject);
                 break;
             case ObstacleType.POINT:
+                UIManager.Singleton.UpdateScore();
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
