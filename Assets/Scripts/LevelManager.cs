@@ -19,9 +19,11 @@ public class LevelManager : MonoBehaviour
         
         currentTiles.Clear();
         
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 6; i+=2)
         {
             currentTiles.Add(Instantiate(tilesPrefabs[0], _initTilePos, Quaternion.Euler(rotation)));
+            ChangeInitPos();
+            currentTiles.Add(Instantiate(tilesPrefabs[RandomRangeInt(1, 7)], _initTilePos, Quaternion.Euler(rotation)));
             ChangeInitPos();
         }
         
@@ -72,6 +74,11 @@ public class LevelManager : MonoBehaviour
             Singleton._initTilePos.z = 0;
         }
     }
+
+    private int RandomRangeInt(int min, int max)
+    {
+        return Random.Range(min, max);
+    } 
     
     private void Awake()
     {
