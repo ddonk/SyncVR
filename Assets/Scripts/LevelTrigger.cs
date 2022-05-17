@@ -1,26 +1,26 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class LevelTrigger : MonoBehaviour
 {
     [SerializeField] private ObstacleType _obstacleType;
+    
     private void OnTriggerEnter(Collider other)
     {
+        //If our player triggers a game trigger handle the trigger depending on its type;
         if (!other.gameObject.tag.Equals("Player")) return;
         switch (_obstacleType)
         {
-            case ObstacleType.TSPLIT:
+            case ObstacleType.End:
                 LevelManager.Singleton.GenerateLane();
                 break;
-            case ObstacleType.OBSTACLE:
+            case ObstacleType.Obstacle:
                 UIManager.Singleton.HandleDeath();
-                other.gameObject.TryGetComponent<CharacterController>(out CharacterController characterController);
+                //We pause the game by stopping the characters movement by disabling the character controller.
+                other.gameObject.TryGetComponent(out CharacterController characterController);
                 characterController.enabled = false;
                 break;
-            case ObstacleType.POINT:
+            case ObstacleType.Point:
                 UIManager.Singleton.UpdateScore();
                 break;
             default:
@@ -31,7 +31,9 @@ public class LevelTrigger : MonoBehaviour
 
 public enum ObstacleType
 {
-    OBSTACLE,
-    TSPLIT,
-    POINT,
+    Obstacle,
+    //Triggerbox for when new tiles need to be loaded
+    End,
+    //To add a point to the score of the player.
+    Point,
 }
