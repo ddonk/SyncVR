@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8545561617322839651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8545561617322839677}
+  - component: {fileID: 8545561617322839676}
+  m_Layer: 0
+  m_Name: LevelMananger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8545561617322839677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8545561617322839651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8545561617322839676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8545561617322839651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a5fe51b62668b40b3b79a1926960e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tilesPrefabs:
+  - {fileID: 1797778990219151066, guid: 357580bd607869f49b5bb3fefee7ad8e, type: 3}
+  - {fileID: 8508641333836581875, guid: 1e173a3a4687e5b46b639368687a055d, type: 3}
+  - {fileID: 4473802035132892133, guid: b0f9c0e7dcf9b3643a4a2d84288f416a, type: 3}
+  - {fileID: 3326889220745015836, guid: 53b18ee88054f61489e15a3b554b8ed2, type: 3}
+  - {fileID: 6625589035933746868, guid: 52a39bd4bfcfebc4588677588b665983, type: 3}
+  - {fileID: 5798342666588102661, guid: a0e8984a1d423f24e8a19f0a26fb1941, type: 3}
+  - {fileID: 3830047000002289520, guid: af52de23494625c4d94bc7c4cad465d1, type: 3}
+  - {fileID: 740419693731227055, guid: 2a018b3debff58047804ced9969c5667, type: 3}
+  _currentTiles: []
+  _levelObject: {fileID: 0}
+  _xTileSize: 2
