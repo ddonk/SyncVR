@@ -16,9 +16,14 @@ public class LevelManager : MonoBehaviour
     private Vector3 _initTileRot;
     public void GenerateLane()
     {
-        for (int i = 0; i < currentTiles.Count-3; i++)
+        // for (int i = 0; i < currentTiles.Count-3; i++)
+        // {
+        //     Destroy(currentTiles[i]);
+        // }
+
+        foreach (var tile in currentTiles)
         {
-            Destroy(currentTiles[i]);
+            Destroy(tile);
         }
         
         currentTiles.Clear();
@@ -51,7 +56,7 @@ public class LevelManager : MonoBehaviour
             Singleton = this;
             Singleton.tilesPrefabs = tilesPrefabs;
             Singleton._initTilePos = new Vector3();
-            Singleton._initTileRot = new Vector3(0, 90, 0);
+            Singleton._initTileRot = new Vector3(0, 0, 0);
             Singleton.currentTiles = new List<GameObject>();
             Singleton.xTileSize = xTileSize;
         }
