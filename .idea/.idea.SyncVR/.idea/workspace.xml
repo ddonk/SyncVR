@@ -3,17 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b4e06d83-7dd3-4d5a-8740-f9e3049cc9f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SyncVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SyncVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PostProcessing/Global Volume Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DoubleTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DoubleTile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeftBottomTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LeftBottomTile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeftTop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LeftTop.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Triggerbox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Triggerbox.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ybot.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ybot.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterController.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomGameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomGameManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelTrigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +26,6 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomGameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelTrigger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>

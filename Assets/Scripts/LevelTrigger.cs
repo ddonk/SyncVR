@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelTrigger : MonoBehaviour
 {
@@ -15,7 +16,9 @@ public class LevelTrigger : MonoBehaviour
                 LevelManager.Singleton.GenerateLane();
                 break;
             case ObstacleType.OBSTACLE:
-                Dead(other.gameObject);
+                UIManager.Singleton.HandleDeath();
+                other.gameObject.TryGetComponent<CharacterController>(out CharacterController characterController);
+                characterController.enabled = false;
                 break;
             case ObstacleType.POINT:
                 UIManager.Singleton.UpdateScore();
@@ -23,11 +26,6 @@ public class LevelTrigger : MonoBehaviour
             default:
                 throw new ArgumentOutOfRangeException();
         }
-    }
-
-    private void Dead(GameObject _gameObject)
-    {
-        Destroy(_gameObject);
     }
 }
 

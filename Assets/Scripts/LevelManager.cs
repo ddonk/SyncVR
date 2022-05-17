@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
             _initTilePos.z += xTileSize;
         }
         InitTile(tilesPrefabs[0], _initTilePos, Singleton._initTileRot);
-        InitTile(tilesPrefabs[tilesPrefabs.Count-1], new Vector3(Singleton._initTilePos.x, Singleton._initTilePos.y, Singleton._initTilePos.z - (xTileSize/2)), Singleton._initTileRot);
+        InitTile(tilesPrefabs[tilesPrefabs.Count-1], new Vector3(Singleton._initTilePos.x, Singleton._initTilePos.y, Singleton._initTilePos.z - (xTileSize)), Singleton._initTileRot);
     }
 
     private int RandomRangeInt(int min, int max)
@@ -57,12 +57,11 @@ public class LevelManager : MonoBehaviour
         else 
         {
             Debug.Log("Init Level Manager Singleton");
+            _initTilePos = new Vector3(0,0,8);
+            _initTileRot = new Vector3(0, 0, 0);
             Singleton = this;
-            Singleton.tilesPrefabs = tilesPrefabs;
-            Singleton._initTilePos = new Vector3(0,0,8);
-            Singleton._initTileRot = new Vector3(0, 0, 0);
-            Singleton.currentTiles = currentTiles;
-            Singleton.xTileSize = xTileSize;
         }
+        
+        Singleton.GenerateLane();
     }
 }

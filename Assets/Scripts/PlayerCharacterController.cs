@@ -6,11 +6,13 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerCharacterController : MonoBehaviour
 {
-    private CharacterController _characterController;
+    public static CharacterController _characterController;
 
     [SerializeField] private GameObject cameraPanels;
     
     [SerializeField] private float moveSpeed;
+    [SerializeField] private float accelerationSpeed;
+    [SerializeField] private float accelerationTime;
     [SerializeField] private float roadWidth;
     private Vector3 velocity;
     private void Awake()
@@ -19,6 +21,8 @@ public class PlayerCharacterController : MonoBehaviour
         {
             Debug.LogWarning("Couldnt find character controller");
         }
+
+        StartCoroutine(Accelerate());
     }
 
     private void Update()
@@ -49,4 +53,16 @@ public class PlayerCharacterController : MonoBehaviour
             velocity = horInput * transform.right;
         }
     }
+    private IEnumerator Accelerate()
+    {
+        while (true)
+        {
+            if (_characterController.enabled)
+            {
+                moveSpeed += accelerationSpeed;
+            }
+
+            yield return new WaitForSeconds(accelerationTime);
+        }
+    } 
 }
