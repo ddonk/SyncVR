@@ -2,101 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4e06d83-7dd3-4d5a-8740-f9e3049cc9f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DoubleTile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/LeftBottomTile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/LeftTop.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/LeftTopTile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/RightBottomTile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/RightBottomTile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/RightTopTile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/RightTopTile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/emptyTile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/emptyTile.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SyncVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SyncVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/cornertile.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/cornertile.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/obstacletile.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/obstacletile.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/obstacletile1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/obstacletile1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/obstacletile2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/obstacletile2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/obstacletile3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/obstacletile3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/obstacletile4.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/obstacletile4.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/slidetile.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/slidetile.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DoubleTile.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/DoubleTile.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DoubleTile.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/DoubleTile.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/License.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LeftBottomTile.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LeftTopTile.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_bush_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_bush_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_bush_2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_bush_2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_bush_3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_bush_3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_bush_4.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_bush_4.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_bush_5.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_bush_5.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_4.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_4.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_5.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_5.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_6.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_flower_6.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_grass_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_grass_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_grass_2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_grass_2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_mashroom_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_mashroom_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_mashroom_2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_mashroom_2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_mashroom_3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_mashroom_3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_mashroom_4.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_mashroom_4.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_stone_2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_stone_2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_stone_3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_stone_3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_stones_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/fbx/_stones_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/readme.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LeftTop.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/texture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/texture/.mayaSwatches/Ekfs_bush_map.png_hcm.swatch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/texture/Ekfs_bush_map.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Ekfs_bush_map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/texture/Ekfs_bush_map.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Ekfs_bush_map.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/texture/Ekfs_bush_map.tx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Forest/texture/Ekfs_bush_map.tx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DoubleTile.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeftBottomTile.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/LeftBottomTile.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeftBottomTile.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/LeftBottomTile.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeftTop.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/LeftTop.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeftTop.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/LeftTop.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeftTopTile.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/LeftTopTile.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeftTopTile.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/LeftTopTile.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RightBottomTile.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/RightBottomTile.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RightBottomTile.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/RightBottomTile.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RightTopTile.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/RightTopTile.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RightTopTile.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/RightTopTile.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/emptyTile.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/emptyTile.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/emptyTile.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/emptyTile.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PostProcessing/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DoubleTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DoubleTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeftBottomTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LeftBottomTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeftTop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LeftTop.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Triggerbox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Triggerbox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ybot.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ybot.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterController.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacterController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +60,7 @@
       <workItem from="1652638328919" duration="12136000" />
       <workItem from="1652686862799" duration="18166000" />
       <workItem from="1652797152213" duration="83000" />
-      <workItem from="1652808787551" duration="2923000" />
+      <workItem from="1652808787551" duration="6638000" />
     </task>
     <servers />
   </component>

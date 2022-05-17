@@ -12,7 +12,7 @@ public class LevelTrigger : MonoBehaviour
         switch (_obstacleType)
         {
             case ObstacleType.TSPLIT:
-                GenerateNewLevel();
+                LevelManager.Singleton.GenerateLane();
                 break;
             case ObstacleType.OBSTACLE:
                 Dead(other.gameObject);
@@ -28,11 +28,6 @@ public class LevelTrigger : MonoBehaviour
     private void Dead(GameObject _gameObject)
     {
         Destroy(_gameObject);
-    }
-    
-    private void GenerateNewLevel()
-    {
-        LevelManager.Singleton.GenerateLane();
     }
 }
 

@@ -8,6 +8,8 @@ public class PlayerCharacterController : MonoBehaviour
 {
     private CharacterController _characterController;
 
+    [SerializeField] private GameObject cameraPanels;
+    
     [SerializeField] private float moveSpeed;
     [SerializeField] private float roadWidth;
     private Vector3 velocity;
@@ -27,6 +29,7 @@ public class PlayerCharacterController : MonoBehaviour
         
         Vector3 pos = transform.position;
         transform.position = new Vector3(Mathf.Clamp(pos.x, -roadWidth, roadWidth),pos.y , pos.z);
+        cameraPanels.transform.position = new Vector3(cameraPanels.transform.position.x , cameraPanels.transform.position.y, transform.position.z);
     }
 
     private void PlayerInput()
