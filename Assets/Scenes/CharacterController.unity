@@ -161,11 +161,7 @@ MonoBehaviour:
   - {fileID: 5798342666588102661, guid: a0e8984a1d423f24e8a19f0a26fb1941, type: 3}
   - {fileID: 3830047000002289520, guid: af52de23494625c4d94bc7c4cad465d1, type: 3}
   - {fileID: 740419693731227055, guid: 2a018b3debff58047804ced9969c5667, type: 3}
-  currentTiles:
-  - {fileID: 1829900054}
-  - {fileID: 560483804}
-  - {fileID: 1369468172}
-  - {fileID: 86559412}
+  currentTiles: []
   levelObject: {fileID: 1946193647}
   xTileSize: 2
 --- !u!4 &32541809
@@ -182,11 +178,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &86559412 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1797778990219151066, guid: 357580bd607869f49b5bb3fefee7ad8e, type: 3}
-  m_PrefabInstance: {fileID: 1062302058}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &86559413 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1421218679472528480, guid: 357580bd607869f49b5bb3fefee7ad8e, type: 3}
@@ -715,11 +706,6 @@ Transform:
   m_Father: {fileID: 1703108808}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 75}
---- !u!1 &560483804 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1797778990219151066, guid: 357580bd607869f49b5bb3fefee7ad8e, type: 3}
-  m_PrefabInstance: {fileID: 1159504086}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &560483805 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1421218679472528480, guid: 357580bd607869f49b5bb3fefee7ad8e, type: 3}
@@ -1132,6 +1118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8348c6db621d7db40b28d058ec31e32b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraPanels: {fileID: 1703108807}
   moveSpeed: 2
   roadWidth: 0.3
 --- !u!143 &1343488501
@@ -1151,7 +1138,7 @@ CharacterController:
   m_StepOffset: 0
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: -0.75}
 --- !u!4 &1343488502
 Transform:
   m_ObjectHideFlags: 0
@@ -1166,15 +1153,9 @@ Transform:
   - {fileID: 708380786}
   - {fileID: 2042066342}
   - {fileID: 377151143}
-  - {fileID: 1703108808}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1369468172 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1797778990219151066, guid: 357580bd607869f49b5bb3fefee7ad8e, type: 3}
-  m_PrefabInstance: {fileID: 252109225}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1369468173 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1421218679472528480, guid: 357580bd607869f49b5bb3fefee7ad8e, type: 3}
@@ -1337,21 +1318,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703108807}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 538097016}
   - {fileID: 1014546929}
   - {fileID: 1958790471}
-  m_Father: {fileID: 1343488502}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1829900054 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1797778990219151066, guid: 357580bd607869f49b5bb3fefee7ad8e, type: 3}
-  m_PrefabInstance: {fileID: 511124391}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1829900055 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1421218679472528480, guid: 357580bd607869f49b5bb3fefee7ad8e, type: 3}
@@ -1389,7 +1365,7 @@ Transform:
   - {fileID: 1369468173}
   - {fileID: 86559413}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1958790470
 GameObject:
@@ -1498,7 +1474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042066341}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.739}
+  m_LocalPosition: {x: 0, y: 0, z: -0.75}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1343488502}
