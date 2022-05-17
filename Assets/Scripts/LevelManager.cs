@@ -19,14 +19,8 @@ public class LevelManager : MonoBehaviour
         // for (int i = 0; i < currentTiles.Count-3; i++)
         // {
         //     Destroy(currentTiles[i]);
+        //     currentTiles.Remove(currentTiles[i]);
         // }
-
-        foreach (var tile in currentTiles)
-        {
-            Destroy(tile);
-        }
-        
-        currentTiles.Clear();
 
         for (int i = 0; i < 6; i+=2)
         {
@@ -36,7 +30,7 @@ public class LevelManager : MonoBehaviour
             _initTilePos.z += xTileSize;
         }
         currentTiles.Add(Instantiate(tilesPrefabs[0], _initTilePos, Quaternion.Euler(Singleton._initTileRot)));
-        currentTiles.Add(Instantiate(tilesPrefabs[tilesPrefabs.Count-1], _initTilePos, Quaternion.Euler(Singleton._initTileRot)));
+        currentTiles.Add(Instantiate(tilesPrefabs[tilesPrefabs.Count-1], new Vector3(_initTilePos.x, _initTilePos.y, _initTilePos.z - (xTileSize)), Quaternion.Euler(Singleton._initTileRot)));
     }
 
     private int RandomRangeInt(int min, int max)

@@ -153,13 +153,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilesPrefabs:
-  - {fileID: 919132149155446097, guid: b188ef5d1383b844f85f61a68605fcbc, type: 3}
-  - {fileID: 919132149155446097, guid: ec8b33d377b6b0c48844f793357e42c1, type: 3}
-  - {fileID: 919132149155446097, guid: 6fab988c156dc9f45b9890ecad2e0f25, type: 3}
-  - {fileID: 919132149155446097, guid: 892da94110aa2f1488f723e4d75db0d2, type: 3}
-  - {fileID: 919132149155446097, guid: 5b84dbd38bc40d2488f01c07d88bf3c7, type: 3}
-  - {fileID: 919132149155446097, guid: 28b736b50e15c924a8db3702b1f0e601, type: 3}
-  - {fileID: 919132149155446097, guid: 0eab4fb9c7947ef44bc8d6a1c5352a59, type: 3}
+  - {fileID: 1797778990219151066, guid: 357580bd607869f49b5bb3fefee7ad8e, type: 3}
+  - {fileID: 8508641333836581875, guid: 1e173a3a4687e5b46b639368687a055d, type: 3}
+  - {fileID: 4473802035132892133, guid: b0f9c0e7dcf9b3643a4a2d84288f416a, type: 3}
+  - {fileID: 3326889220745015836, guid: 53b18ee88054f61489e15a3b554b8ed2, type: 3}
+  - {fileID: 6625589035933746868, guid: 52a39bd4bfcfebc4588677588b665983, type: 3}
+  - {fileID: 5798342666588102661, guid: a0e8984a1d423f24e8a19f0a26fb1941, type: 3}
+  - {fileID: 3830047000002289520, guid: af52de23494625c4d94bc7c4cad465d1, type: 3}
   - {fileID: 740419693731227055, guid: 2a018b3debff58047804ced9969c5667, type: 3}
   currentTiles: []
   xTileSize: 1.75
