@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b4e06d83-7dd3-4d5a-8740-f9e3049cc9f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SyncVR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SyncVR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterController.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterController.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/PixelArt Font.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PixelArt Font.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/Managed/Assembly-CSharp.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/Managed/Mono.Security.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/Managed/System.ComponentModel.Composition.dll" beforeDir="false" />
@@ -120,12 +114,13 @@
       <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/globalgamemanagers.assets" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/level0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/level0.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/level1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/level1.resS" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/resources.assets" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/resources.assets.resS" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/sharedassets0.assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/sharedassets0.assets.resS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/sharedassets1.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/SyncVROpdracht_Data/sharedassets1.assets.resS" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
