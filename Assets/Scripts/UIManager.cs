@@ -23,13 +23,6 @@ public class UIManager : MonoBehaviour
         _againButton.gameObject.SetActive(true);
     }
 
-    private void HandleStart()
-    {
-        _scoreText.text = $"Score: {_score}";
-        PlayerCharacterController.CharacterController.enabled = true;
-        _startButton.gameObject.SetActive(false);
-    }
-    
     private void Awake()
     {
         if (Singleton != null && Singleton != this) 
@@ -39,13 +32,12 @@ public class UIManager : MonoBehaviour
         else 
         {
             Debug.Log("Init UI Manager Singleton");
-            _scoreText.text = "Try to avoid the branches that are on the ground!";
-            _startButton.onClick.AddListener(HandleStart);
-            
-            //Will reload the game scene if you want to play again
+            _scoreText.text = $"Score: {_score}";
+
+            //Load Main Menu Again
             _againButton.onClick.AddListener(delegate
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene(0);
             });
             Singleton = this;
         }
