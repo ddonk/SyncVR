@@ -16,8 +16,9 @@ public class LevelTrigger : MonoBehaviour
                 break;
             case ObstacleType.Obstacle:
                 UIManager.Singleton.HandleDeath();
-                //We pause the game by stopping the characters movement by disabling the character controller.
+                //We pause the game by stopping the characters movement and animations by disabling the character controller and animator.
                 other.gameObject.TryGetComponent(out CharacterController characterController);
+                other.gameObject.GetComponentInChildren<Animator>().enabled = false;
                 characterController.enabled = false;
                 break;
             case ObstacleType.Point:
